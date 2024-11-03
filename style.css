@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url("static.jpeg") !important;
+
+}
+
+@font-face {
+    font-family: 'HomeVideo';
+    src: url('fonts/HomeVideo-BLG6G.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HomeVideo2';
+    src: url('fonts/HomeVideoBold-R90Dv.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.BarraLogo {
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#CompanyLogo1 {
+    margin: 20px;
+    height: 120px;
+}
+
+.HButtons {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+
+
+}
+
+.HButtons ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'home';
+    font-size: 15px;
+
+}
+
+.HButtons li {
+    margin: 0px 10px;
+}
+
+.HButtons a {
+    text-decoration: none;
+    color: red;
+    font-family: 'HomeVideo';
+}
+
+.About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+
+#abthead {
+    font-family: 'HomeVideo';
+    color: red;
+    display: flex;
+
+}
+
+#carouselExampleCaptions {
+    width: 1000px;
+    height: width/2;
+    font-family: "HomeVideo";
+}
+
+.carousel-title {
+    font-family: "HomeVideo2";
+    color: red;
+}
+
+.CAUSA {
+    margin: 150px;
+}
+
+.causehead {
+    font-family: "HomeVideo2";
+    color: red;
+    margin: 20px;
+}
+
+.pixel1 {
+    font-family: "HomeVideo";
+    background-color: black;
+    border: solid 0.1px;
+    height: 40rem;
+    width: height+10;
+    
+
+
+}
+
+
+
+.card-text {
+    color: white;
+}
+
+.Cards {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardbtn1 {
+    background-color: red;
+    border-color: red;
+    font-family: "HomeVideo";
+}
+
+.cardbtn2 {
+    background-color: red;
+    border-color: red;
+    font-family: "HomeVideo";
+}
+
+.card-title1 {
+    font-family: "HomeVideo";
+    color: red;
+    filter: blur(0.6px);
+}
+
+
+
+
+@media(max-width: 900px) {
+
+    .HButtons {
+        list-style: none;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        display: none;
+    }
+
+    .pixel1 {
+        font-family: "HomeVideo";
+        background-color: black;
+        border: solid 0.1px;
+        margin: 20px;
+        width: 30rem;
+        height: 40rem;
+        font-size: 25px;
+
+    }
+
+    .Cards{
+        display: block;
+    }
+
+
+
+
+
+
+}
