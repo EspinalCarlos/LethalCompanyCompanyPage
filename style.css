@@ -111,12 +111,14 @@ body {
     border: solid 0.1px;
     height: 40rem;
     width: height+10;
-    
+
 
 
 }
 
-
+#Mobile {
+    display: none;
+}
 
 .card-text {
     color: white;
@@ -148,7 +150,7 @@ body {
     filter: blur(0.6px);
 }
 
-#textocarr{
+#textocarr {
     color: red;
     font-family: "HomeVideo";
     background-color: black;
@@ -157,50 +159,50 @@ body {
     font-weight: 900;
 }
 
-#parcar1{
+#parcar1 {
     color: white;
     font-family: "HomeVideo";
-    font-weight:900;
-    
-    
+    font-weight: 900;
+
+
 }
 
-#menu{
+.menu {
     font-family: "HomeVideo";
     color: red;
     display: none;
-    
+
 }
 
-#FORM{
+#FORM {
     margin-top: 150px;
     margin-bottom: 150px;
 }
 
-#contactHEAD{
+#contactHEAD {
     font-family: "HomeVideo2";
     color: red;
 }
 
-#contactP{
+#contactP {
     font-family: "HomeVideo";
     color: red;
     margin: 20px;
 }
 
-.formfloating{
+.formfloating {
     background-color: black;
     margin: 20px;
 }
 
-.mb-3{
+.mb-3 {
     margin-left: 30%;
     margin-right: 30%;
     color: red;
     font-family: "HomeVideo";
 }
 
-.BTNSUB{
+.BTNSUB {
     color: red;
     font-family: "HomeVideo";
     background-color: #000000;
@@ -208,17 +210,85 @@ body {
 
 }
 
+.flg {
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#lcwhite {
+    height: 50px;
+    margin: 20px;
+    margin-top: 5%;
+    position: relative;
+
+}
+
+#iconoLC {
+    height: 90px;
+    display: flex;
+    position: absolute;
+    right: 3%;
+}
+
+#textocarr2 {
+    color: red;
+    font-family: "HomeVideo";
+    background-color: black;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: 900;
+}
+
+#footercr {
+    color: white;
+    font-family: "HomeVideo";
+    font-size: 10px;
+    margin-top: 7%;
+}
+
+footer {
+    display: flex;
+    background-color: #000000;
+    opacity: 0.3;
+}
 
 
 
 @media(max-width: 900px) {
 
-    .HButtons {
-        list-style: none;
-        padding: 10px;
+    #iconoLC {
+        height: 90px;
         display: flex;
-        justify-content: space-between;
-        display: none;
+        position: absolute;
+        right: 15%;
+    }
+
+    .navmenu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(27, 27, 27);
+        top: 17%;
+        align-items: center;
+        padding: 20px;
+        left: 100%;
+        padding: 20px 0px;
+        width: 100%;
+        height: 200%;
+        z-index: 3;
+        transition: left 0.2s;
+    }
+
+
+
+    .navmenu_visible {
+        left: 0%;
+    }
+
+    .HButtons li {
+        margin: 50px 20px;
+        font-size: 50px;
     }
 
     .pixel1 {
@@ -232,21 +302,22 @@ body {
 
     }
 
-    .Cards{
+    .Cards {
         display: block;
     }
 
-    #menu{
+    .menu {
         font-family: "HomeVideo";
         color: red;
         display: flex;
         text-align: right;
         position: absolute;
         right: 5%;
-        
+        display: block;
+        cursor: pointer;
     }
 
-    
+
 
 
 
