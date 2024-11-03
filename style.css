@@ -67,7 +67,7 @@ body {
     font-family: 'HomeVideo';
 }
 
-.About {
+#About {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,8 +93,10 @@ body {
     color: red;
 }
 
-.CAUSA {
-    margin: 150px;
+#CAUSA {
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .causehead {
@@ -146,6 +148,66 @@ body {
     filter: blur(0.6px);
 }
 
+#textocarr{
+    color: red;
+    font-family: "HomeVideo";
+    background-color: black;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-weight: 900;
+}
+
+#parcar1{
+    color: white;
+    font-family: "HomeVideo";
+    font-weight:900;
+    
+    
+}
+
+#menu{
+    font-family: "HomeVideo";
+    color: red;
+    display: none;
+    
+}
+
+#FORM{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#contactHEAD{
+    font-family: "HomeVideo2";
+    color: red;
+}
+
+#contactP{
+    font-family: "HomeVideo";
+    color: red;
+    margin: 20px;
+}
+
+.formfloating{
+    background-color: black;
+    margin: 20px;
+}
+
+.mb-3{
+    margin-left: 30%;
+    margin-right: 30%;
+    color: red;
+    font-family: "HomeVideo";
+}
+
+.BTNSUB{
+    color: red;
+    font-family: "HomeVideo";
+    background-color: #000000;
+    border-color: red;
+
+}
+
 
 
 
@@ -173,6 +235,18 @@ body {
     .Cards{
         display: block;
     }
+
+    #menu{
+        font-family: "HomeVideo";
+        color: red;
+        display: flex;
+        text-align: right;
+        position: absolute;
+        right: 5%;
+        
+    }
+
+    
 
 
 
