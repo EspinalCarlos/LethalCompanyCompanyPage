@@ -16,17 +16,18 @@
                 <li><a href="#About" onclick="lmao()">TheCompany</a></li>
                 <li><a href="#CAUSA" onclick="lmao()">cause</a></li>
                 <li><a href="#FORM" onclick="lmao()">Contact Us</a></li>
-                <li><a href="https://store.steampowered.com/app/1966720/Lethal_Company/" onclick="lmao()">Join THE COMPANY</a></li>
+                <li><a href="https://store.steampowered.com/app/1966720/Lethal_Company/" onclick="lmao()">Join THE
+                        COMPANY</a></li>
             </ul>
         </nav>
 
-        <img id ="iconoLC" src="iconLC.png">
+        <img id="iconoLC" src="iconLC.png">
 
         <h1 class="menu">
             <>
         </h1>
-        
-        
+
+
 
     </header>
 </head>
@@ -46,6 +47,8 @@
                     aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
                     aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -60,8 +63,17 @@
                 <div class="carousel-item">
                     <img src="comp2.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption">
-                        <h5 id ="textocarr2">on field work</h5>
-                        <p>Our employees dont even need experience since they will experience it immedeately during thei first job by exploring the ruins of desolated planets far from home.</p>
+                        <h5 id="textocarr2">on field work</h5>
+                        <p>Our employees dont even need experience since they will experience it immedeately during thei
+                            first job by exploring the ruins of desolated planets far from home.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="greatasset.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5 id="textocarr2">Great Asset</h5>
+                        <p>The Company has long been awaiting for new employees to keep it afloat. You will be a great asset to the company</p>
                     </div>
                 </div>
             </div>
@@ -98,7 +110,8 @@
                         <h5 class="card-title1">Asset Making</h5>
                         <p class="card-text">Positioning you as an invaluable asset to the company, driving exceptional
                             growth and lasting success!</p>
-                        <a href="https://store.steampowered.com/app/1966720/Lethal_Company/" class="btn btn-primary cardbtn2">Start Now!</a>
+                        <a href="https://store.steampowered.com/app/1966720/Lethal_Company/"
+                            class="btn btn-primary cardbtn2">Start Now!</a>
                     </div>
                 </div>
 
@@ -136,7 +149,7 @@
     </div>
 
     <script>
-        function lmao(){
+        function lmao() {
             men.classList.toggle("navmenu_visible")
         }
 
@@ -163,7 +176,7 @@
         const item4 = document.getElementById("lcwhite");
         const listItems = document.querySelectorAll(".HButtons li a");
         const flickerColors = ["red", "white"];
-        const imageflick = ["Lethal_Company.png","wlethal.png"];
+        const imageflick = ["Lethal_Company.png", "wlethal.png"];
         const flickerDuration = 500;
         const flickerInterval = 5000;
 
@@ -177,8 +190,8 @@
                 item1.style.color = flickerColors[colorIndex];
                 item2.style.color = flickerColors[colorIndex];
                 item3.style.color = flickerColors[colorIndex];
-                
-                
+
+
                 colorIndex = (colorIndex + 1) % flickerColors.length; // Cycle through colors
                 if (Date.now() >= flickerEndTime) {
                     clearInterval(flickerIntervalId);
@@ -189,8 +202,8 @@
                     item1.style.color = "red";
                     item2.style.color = "red";
                     item3.style.color = "red";
-                    
-                   
+
+
                 }
             }, 15);
         }
@@ -203,8 +216,8 @@
         crossorigin="anonymous"></script>
 </body>
 <footer>
-    <img id = "lcwhite" src="wlethal.png">
-    <h1 id = "footercr"> LETHAL COMPANY 2198</h1>
+    <img id="lcwhite" src="wlethal.png">
+    <h1 id="footercr"> LETHAL COMPANY 2198</h1>
 </footer>
 
 
